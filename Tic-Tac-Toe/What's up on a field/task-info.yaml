@@ -218,6 +218,16 @@ files:
     if __name__ == '__main__':
         TicTacToeTest('tictactoe.tictactoe').run_tests()
   learner_created: false
+- name: tictactoe/tictactoe.py
+  visible: true
+  text: |-
+    cells = input("Enter cells:")
+    print("---------")
+    print("|", cells[0], cells[1], cells[2], "|")
+    print("|", cells[3], cells[4], cells[5], "|")
+    print("|", cells[6], cells[7], cells[8], "|")
+    print("---------")
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/73/stages/401/implement
 status: Unchecked
 record: -1
