@@ -1,0 +1,7 @@
+letter = input()
+letter1 = letter.replace(",", "")
+letter2 = letter1.replace(".", "" )
+letter3 = letter2.replace("!", "")
+letter4 = letter3.replace("?", "")
+letter5 = letter4.lower()
+print(letter5)
